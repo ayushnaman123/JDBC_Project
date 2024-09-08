@@ -1,4 +1,4 @@
-package in.ineuron.dto;
+package in.coder.dto;
 
 import java.io.Serializable;
 

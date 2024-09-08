@@ -1,6 +1,6 @@
 package in.coder.service;
 
-import in.ineuron.dto.Student;
+import in.coder.dto.Student;
 
 public interface IStudentService {
 	public String addStudent(String sname, Integer sage, String saddress, String sdob);

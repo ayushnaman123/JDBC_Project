@@ -1,8 +1,8 @@
 package in.coder.service;
 
 import in.coder.daofactory.StudentDaoFactory;
+import in.coder.dto.Student;
 import in.coder.persistence.IStudentDao;
-import in.ineuron.dto.Student;
 
 public class StudentServiceImpl implements IStudentService {
 	private IStudentDao studentDao;

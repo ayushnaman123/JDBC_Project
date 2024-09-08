@@ -9,10 +9,8 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-
-
+import in.coder.dto.Student;
 import in.coder.util.JdbcUtil;
-import in.ineuron.dto.Student;
 
 public class StudentDaoImpl implements IStudentDao {
 	Connection connection = null;

@@ -25,8 +25,8 @@ public class JdbcUtil {
         String configFile = "src\\in\\coder\\properties\\Application.properties";
 		HikariConfig config = new HikariConfig(configFile);
 		HikariDataSource dataSource = new HikariDataSource(config);
-		Connection connection = dataSource.getConnection();
-		return connection;
+		 dataSource.getConnection();
+		return dataSource.getConnection();
 	}
 
 	
