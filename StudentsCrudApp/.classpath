@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysqllib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ioutils"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HikariCPConnectionPool"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
